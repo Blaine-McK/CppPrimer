@@ -1,0 +1,15 @@
+// C++ Primer Exercise 1.14
+// By Blaine McKeever
+// 30/06/2021
+
+What are the adv / disadv of using for and while loops?
+
+in a while loop the initialisation of the value used in the condition is set outside the loop body so it can be initialised or used else where before  or after the loop.
+
+A while loop is used to repeat a specific block of code an unknown number of times, in a for loop the number of times the loop must be repated is known.
+
+In a do while loop the block of code in it is executed at least once.
+
+The only difference between a while and a do while is that the while can end without executing any statement and the do while will end only after exectuing at least one statement
+
+A for loop is used for specifying the number of iterations. If we know exactly how many times we want to loop we use a for loop.
