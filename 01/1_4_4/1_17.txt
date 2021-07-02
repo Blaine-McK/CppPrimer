@@ -1,0 +1,11 @@
+C++ Primer Exercise 1.17
+By Blaine McKeever
+02/07/2021
+
+What happens in the program in this section if the input values are all equal?
+
+- The one value will be counted and the number of times it is input will be output
+
+What if there are no duplicate values?
+
+- The output count for all values will be 1

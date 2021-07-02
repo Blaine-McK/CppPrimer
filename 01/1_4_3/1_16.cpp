@@ -1,3 +1,9 @@
+// C++ Primer Exercise 1.16
+// By Blaine McKeever
+// 02/07/2021
+
+// Write a program that adds a set of numbers read in from cin
+
 #include <iostream>
 
 int main() 
