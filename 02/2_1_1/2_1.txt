@@ -1,0 +1,23 @@
+C++ Primer
+Exercise 2.1:
+By Blaine McKeever
+15/07/21
+
+What are the differences between int, long, long long and short? Between
+an unsigned and a signed type? Between a float and a double?
+
+An int is 16 bits
+A long is 32 bits
+A long long is 64 bits
+A short is 16 bits
+
+an int is at least as large as a short, a long is at least as large as
+an int and a long long is at least as large as a long
+
+A signed type can store numbers above, below and equal to zero. An unsigned
+type can only store numbers that are greater than or equal to zero.
+
+A float is a floating point number has a minimum 0f 6 significant digits, though typically 7. It is
+typically stored in a word (32 bits)
+A double is a floating point number has a minimum 0f 10 significant digits. A double
+is normally stored in 2 words (64 bits)

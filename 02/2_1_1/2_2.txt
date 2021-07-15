@@ -1,0 +1,20 @@
+C++ Primer
+Exercise 2.2:
+By Blaine McKeever
+15/07/21
+
+To calculate a mortgage payment, what types would you use for:
+
+Rate (Percentage interest): unsigned double
+
+Unsigned double as float operations can often take longer than double, unsigned
+because the interest percentage will never be less than 0
+
+Principal (Cost of mortgage): double
+
+double as float operations can take longer than double on some machines
+
+Payment (monthly payment cost): double
+
+double as float operations can take longer than double on some machines and even
+when not the difference is negligible
