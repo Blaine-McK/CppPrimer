@@ -1,0 +1,7 @@
+// C++ Primer
+// Section 2.1.3
+// Exercise 2.6
+// By Blaine McKeever
+// 26/07/21
+
+The assignments in the first statement are in decimal, the next line are in octal

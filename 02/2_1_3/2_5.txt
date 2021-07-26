@@ -1,0 +1,38 @@
+// C++ Primer
+// Section 2.1.3
+// Exercise 2.5
+// By Blaine McKeever
+// 26/07/21
+
+Determine the type of each of the following literals. Explain the difference
+among the literals in each of the four examples.
+
+a) 'a',L'a',"a",L"a"
+
+char literal 'a', 
+wchar_t (wide character) literal 'a',
+String literal "a", 
+String literal  (array of chars followed by '/0', null character) of wchar_t (wide character) "a"
+
+b) 10, 10u, 10L, 10uL, 012, 0xC
+
+signed integer literal 10, 
+unsigned integer literal 10, 
+long signed integer literal 10, 
+unsigned long integer literal 10,
+octal integer literal value 012 (decimal value 10)
+hexadecimal integer literal value C (decimal value 12)
+
+c) 3.14, 3.14f, 3.14L
+
+double floating point literal value 3.14,
+float floating point literal value 3.14,
+long double floating point precision value
+
+d) 10, 10u, 10., 10e-2
+
+signed integer literal,
+unsigned integer literal,
+double floating point literal value 10.0
+double floating point literal value 0.01
+

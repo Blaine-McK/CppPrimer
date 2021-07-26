@@ -1,0 +1,25 @@
+// C++ Primer
+// Section 2.1.3
+// Exercise 2.7
+// By Blaine McKeever
+// 26/07/21
+
+What value do these literals represent?
+
+a) "Who goes with F\145rgus?\012"
+
+"Who goes with Fergus?" string
+
+^^^012 is new line feed, new line
+
+b) 3.14e1L
+
+31.4 long double floating point literal value
+
+c) 1024f
+
+1024.0 float floating point literal value
+
+d) 3.14L
+
+3.14L long double floating point double precision literal value
