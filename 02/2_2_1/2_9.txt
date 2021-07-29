@@ -1,0 +1,32 @@
+// C++ Primer
+// Section 2.2.1
+// Exercise 2.9
+// By Blaine McKeever
+// 29/07/21
+
+Explain the following definitions. For those that are illegal, explain
+what is wrong and how to correct it.
+
+a) std::cin >> int input_value;
+
+illegal, you cannont initialise a varaible inside an expression
+
+int input_value;
+std::cin >> input_value;
+
+b) int i = { 3.14 }
+
+illegal, a narrowing conversion will be required and list initialisation
+does not allow this
+
+c) double salary = wage = 9999.99;
+
+double salary, wage;
+salary = wage = 9999.99;
+
+illegal, wage is not of unknown type and is uninitialised
+
+d) int i = 3.14;
+
+legal
+

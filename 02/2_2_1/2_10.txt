@@ -1,0 +1,22 @@
+// C++ Primer
+// Section 2.2.1
+// Exercise 2.10
+// By Blaine McKeever
+// 29/07/21
+
+What are the initial values, if any, of each of the following variables?
+
+std::string global_str;
+int global_int;
+
+int main()
+{
+	int local_int;
+	std::string local_str;
+}
+
+
+global_str = "" (Empty string)
+global_int = 0
+local_int = undefined
+local_str = "" (Empty string)
