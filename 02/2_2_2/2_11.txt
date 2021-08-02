@@ -1,0 +1,20 @@
+// C++ Primer
+// Section 2.2.2
+// Exercise 2.11
+// By Blaine McKeever
+// 02/08/21
+
+Explain whether each of the following is a declaration or a definition
+
+a) extern int ix = 1024;
+
+This is a definition, however extern is used in the wrong way here, the point
+of extern is to declare a variable without defining it
+
+b) int iy;
+
+This is definition
+
+c) extern int iz;
+
+This is a declaration
