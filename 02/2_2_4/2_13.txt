@@ -1,0 +1,19 @@
+// C++ Primer
+// Section 2.2.4
+// Exercise 2.13
+// By Blaine McKeever
+// 16/08/21
+
+What is the value of j in the following program?
+
+int i = 42;
+int main()
+{
+    int i = 100;
+    int j = i;
+    
+    return 0;
+}
+
+
+The value of j is 100
