@@ -1,0 +1,19 @@
+ C++ Primer
+ Section 2.3.1
+ Exercise 2.16
+ By Blaine McKeever
+ 16/08/21
+
+ Which, if any, of the following assignments are invalid?
+ If they are valid, explain what they do.
+
+ int i = 0, &r1 = i; double d = 0, &r2 = d;
+
+ a) r2 = 3.14159; - Changes the value of the object referenced by the reference (d) to 3.14159
+ b) r2 = r1; - valid assigns the value of object i to d, does a type conversion
+ c) i = r2; - valid assigns the value of object d to i, does a type conversion (Truncates the data after the decimal)
+ d) r1 = d; - valid assigns the value of object i to d, does a type conversion (Truncates the data after the decimal)
+
+ I actually didn't expect most of these to compile, I thought the compiler would complain
+ about losing data going from a double to an integer - It doesn't though, the data is just truncated and
+ nothing is said. Worth noting.

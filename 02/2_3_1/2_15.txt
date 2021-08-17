@@ -1,0 +1,12 @@
+ C++ Primer
+ Section 2.3.1
+ Exercise 2.15
+ By Blaine McKeever
+ 16/08/21
+
+ Which of the following definitions are invalid, if any, why?
+
+ a) int ival = 1.01; - valid
+ b) int &rval1 = 1.01; - invalid, cannot intialize reference to a literal
+ c) int &rval2 = ival; - valid
+ d) int &rval3; - invlaid, reference must be initialized to an object
