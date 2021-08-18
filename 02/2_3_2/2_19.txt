@@ -1,0 +1,32 @@
+C++ Primer
+Section 2.3.2
+Exercise 2.19
+By Blaine McKeever
+18/08/21
+
+Explain the key differences between pointers and references
+
+- A reference is not an object; it defines an alternative name for an object
+- A reference must be bound to an object in when it is defined, it must be initialized
+- When a reference is initialized, we bind the reference to its initializer
+- A reference cannot change object to which it references
+- A reference must be of the type to which it refers
+- Because references are not objects, you cannot define a reference to a reference
+- A reference cannot be bound to a literal, only an object
+- When a reference is used it will always return the object to which it was initially bound
+
+- A pointer is an object
+- A pointer does not have to point to an object (be initialized) when it is defined
+- A pointer can be assigned and copied. A single pointer can point to several different objects over its lifetime
+- When we initialize a pointer, the memory address of the initializer is copied into the pointer
+- To initialize a pointer to the memory address of the initializer the address of operator (&) is used
+- A pointer defined at block scope has undefined value if it is not initialized, in the same way as other built-in types
+- The address that a pointer stores can be in one of four states:
+    1) It can point to an object
+    2) It can point to the next memory location immediately past the end of an object
+    3) It can be a null pointer, indicating that it is not bound to any object, a reference is always bound to an object
+    4) It can be invalid; any value that is not the previous three points is invalid
+- To access an object with a pointer the dereference operator (*) is used
+- There is no guarantee that the address which a pointer holds is that of the object that it was initialized with
+- A void* pointer can be used to store the memory address of an object regardless of its type, a references type must match that of
+    the object to which it refers (With two exceptions)
