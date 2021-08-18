@@ -1,0 +1,13 @@
+// C++ Primer
+// Section 2.3.2
+// Exercise 2.21
+// By Blaine McKeever
+// 18/08/21
+
+// Explain each of the following definitions. Indicate whether any are illegal and, if so, why?
+
+int i = 0;
+
+a - double* dp = &i; - Illegal, assigning an object of type ints address to a pointer of type double
+b - int *ip = i; - Illegal, assigning an int object with value 0 to a pointer, nullptr, 0 or NULL should be used
+c - int *p = &i; - Legal
