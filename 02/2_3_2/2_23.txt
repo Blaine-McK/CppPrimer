@@ -1,0 +1,14 @@
+// C++ Primer
+// Section 2.3.2
+// Exercise 2.23
+// By Blaine McKeever
+// 19/08/21
+
+Given a pointer p, can you determine whether p points to a valid object? if so,
+how? If not, why?
+
+Given a pointer p, you cannot determine if it points to a valid object. When
+you define a reference you bind it to an object and so it can be said that
+a reference will always be bound to a valid object. No such binding occurs with
+pointers, and so the memory to which the pointer points can change, it could become
+an invalid object.

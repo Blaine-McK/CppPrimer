@@ -1,0 +1,14 @@
+// C++ Primer
+// Section 2.3.2
+// Exercise 2.24
+// By Blaine McKeever
+// 19/08/21
+
+Why is the intialization of p legal but that of lp illegal?
+
+int i = 42;
+void *p = &i;
+long *lp = &i;
+
+A void pointer can hold the address of any object where as a pointer of
+type long must point to an object of type long

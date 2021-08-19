@@ -1,0 +1,14 @@
+// C++ Primer
+// Section 2.3.2
+// Exercise 2.22
+// By Blaine McKeever
+// 19/08/21
+
+Assuming p in a pointer to int, explain the following code
+
+if (p) // If p is a valid pointer (It points to an int, it points to the memory location
+					just past the int, the if condiation will evaluate to
+					true, otherwise false)
+
+if (*p) // If the value of the int pointed to by p is a non-zero value (including negatives), the condition will
+					evaluate to true
