@@ -1,0 +1,3 @@
+# ignore generated .obj and .exe files,
+*.obj
+*.exe
