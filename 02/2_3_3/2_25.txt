@@ -1,0 +1,19 @@
+C++ Primer
+Section 2.3.3
+Exercise 2.25
+By Blaine McKeever
+23/08/21
+
+Determine the types and values of each of the following variables
+
+a) int* ip, i, &r = i;
+
+ip is a pointer to int i is an integer, it is uninitialized. i is an unitialized integer. r is a refernce to integer i
+
+b) int i, *ip = 0;
+
+i is an integer, it is uninitialized. ip is a pointer to an integer, it is a null pointer
+
+c) int* ip, ip2;
+
+ip is a pointer to an integer, it is uninitialized. ip2 is an integer, also uninitialized.

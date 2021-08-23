@@ -1,0 +1,25 @@
+C++ Primer
+Section 2.4
+Exercise 2.26
+By Blaine McKeever
+23/08/21
+
+Which of the following are legal? For those that are illegal, explain why.
+
+a) const int buf;
+
+Illegal, a const must be initialized.
+
+b) int cnt = 0;
+
+Legal
+
+c) const int sz = cnt;
+
+Legal
+
+d)
+
+++cnt; ++sz;
+
+++cnt is legal but ++sz is illegal. sz is const and so cannot be modified or reassigned
