@@ -1,0 +1,20 @@
+C++ Primer
+Section 2.4.2
+Exercise 2.27
+By Blaine McKeever
+24/08/21
+
+Which of the following initializations are legal? Explain why.
+
+a) int i = -1, &r = 0;		Illegal, cannot bind a reference to a literal
+b) int *const p2 = &i2; 	Legal, a pointer of type const is allowed to point to any object, 
+				reagardless of whether it is const or not
+c) const int i = -1, &r = 0;	Legal, it is possible to assign a reference to const to a literal
+d) const int *const p3 = &i2;	Legal, it is possible to assign a const pointer of type const int to an object
+				that is either const or non const
+e) const int *p1 = &i2;		Legal - p1 may point to an int that is const
+f) const int &const r2;		Illegal, syntax error - this is not how a const reference is declared
+				Correct that this is illegal but also because a reference must be initialized.
+				Compiler output:
+				anachronism used: qualifiers on reference are ignored
+				error C2530: 'r2': references must be initialized
