@@ -1,0 +1,16 @@
+C++ Primer
+Section 2.4.3
+Exercise 2.31
+By Blaine McKeever
+30/08/21
+
+Given the declatations in the previous exercise determine whether the
+following assignments are legal. Explain how the top-level or low-level const
+applies in each case.
+
+r1 = v2; 	legal, we are assigning not binding.
+p1 = p2;	illegal, p2 is low level const but p1 isn't
+p2 = p1;	legal, you can convert an int pointer to a const int pointer
+p1 = p3;	illegal, assigning low level const p3 to p1 that is not low level
+p2 = p3;	legal, assigning low level const p3 to low level const p2
+
