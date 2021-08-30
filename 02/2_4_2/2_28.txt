@@ -1,0 +1,13 @@
+C++ Primer
+Section 2.4.2
+Exercise 2.28
+By Blaine McKeever
+30/08/21
+
+Explain the following definitions. Identify any that are illegal
+
+a) int i, *const cp;		integer i, const pointer of type int cp, illegal, const must be initialized
+b) int *p1, *const p2;		pointer to int p1, const pointer to int p2, illegal, const must be intialized
+c) const int ic, &r = ic;	const int ic, assign ic to int reference r, illegal ic must be intialized
+d) const int *const p3;		const pointer to const int p3, illegal p3 must be initialized
+e) const int *p;		pointer to const int p, legal, though p should be initialized to nullptr
