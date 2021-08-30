@@ -1,0 +1,14 @@
+C++ Primer
+Section 2.4.2
+Exercise 2.29
+By Blaine McKeever
+30/08/21
+
+Using the variables in the previous exercise, which of the following assignments are legal? Explain why.
+
+a) i = ic;	legal, assign the value of ic to i
+b) p1 = p3;	illegal, p3 is a constant pointer to a constant, p1 is a pointer to a variable. If this was allowed it would change operating range of the constant
+c) p1 = &ic;	illegal, p1 must be a const pointer, a variable pointer cannot hold a const
+d) p3 = &ic;	illegal, cannot reassign const
+e) p2 = p1;	illegal, cannot reassign const
+f) ic = *p3;	illegal, cannot reassign const
