@@ -1,0 +1,10 @@
+C++ Primer
+Section 2.5.3 
+Exercise 2.37 
+By Blaine McKeever 
+02/09/21
+
+    a is and int of value 3 
+    b is an int of value 4 
+    c is and int of value 3 
+    d is an int& bound to a giving it value 3
