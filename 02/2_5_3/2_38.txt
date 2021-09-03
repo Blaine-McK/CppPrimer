@@ -1,0 +1,21 @@
+C++ Primer
+Section 2.5.3 
+Exercise 2.38 
+By Blaine McKeever 
+03/09/21
+
+Describe the differences in type dedution between decltype and auto.
+Give an example where they will deduce differing types
+
+Auto will deduce the type of an expression and evaluate it, initializing
+the a variable with the value of the evaluated expression
+
+Decltype will analyse an expression to deduce a type for the variable,
+it will not initialize it.
+
+An auto delcaration will ignore top level const were as a deltype will not
+
+int a = 777;
+int &r = a;
+auto i = r;		// i is an int
+decltype(i) b = 777;	// b is a int& and therefore must be initalized
